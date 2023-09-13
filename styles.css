@@ -1,6 +1,9 @@
 body {
     font-family: sans-serif;
 }
+small{
+    display: block;
+}
 
 h1 {
     color: #7c7c7c;
