@@ -1,8 +1,9 @@
 body {
     font-family: sans-serif;
 }
-small{
+footer{
     display: block;
+    text-align: center;
 }
 
 h1 {
