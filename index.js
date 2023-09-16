@@ -88,7 +88,8 @@ let celsiusTemperature = null;
 let currentcity = document.querySelector("#search-form");
 currentcity.addEventListener("submit", handlSubmit);
 
-let celsiusLink = document.querySelector("#elsius-link");
-celsiusLink.addEventListener("click", displayCelsiusTemperature);
 let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
+
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", displayCelsiusTemperature);

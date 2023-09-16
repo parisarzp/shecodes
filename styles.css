@@ -84,15 +84,16 @@ li {
     opacity: 0.6;
 }
 
+
 .Weather .WeatherForecast canvas {
     display: block;
     margin: 20px auto;
 }
-.active {
-    color: black;
+.weather-temperature .active {
+    color: rgb(33, 33, 33);
     cursor: default;
 }
-.active:hover {
-    text-decoration: none;
 
+.weather-temperature .active:hover {
+    text-decoration: none;
 }
