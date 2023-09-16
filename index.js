@@ -66,7 +66,7 @@ function handlSubmit(event) {
    let cityInput = document.querySelector("#city-input").value;
    searchCity(cityInput);
 }
-function displayFahrenheitTemperature(){
+function displayFahrenheitTemperature(event){
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
   celsiusLink.classList.remove("active");
@@ -93,3 +93,4 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
+ searchCity("New York");
