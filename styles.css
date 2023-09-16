@@ -88,3 +88,11 @@ li {
     display: block;
     margin: 20px auto;
 }
+.active {
+    color: black;
+    cursor: default;
+}
+.active:hover {
+    text-decoration: none;
+
+}
