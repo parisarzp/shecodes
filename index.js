@@ -23,6 +23,9 @@ function formatDate(timestamp) {
 
   return `${day} ${hours}:${minutes}`;
 }
+function displayforcast(){
+
+}
 
 function displayWeatherCondition(response) {
   document.querySelector("#city").innerHTML = response.data.name;
@@ -93,3 +96,22 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
  searchCity("New York");
+ displayforcast();
+
+  <div class="row">
+                <div class="col-2">
+                    <div class="WeatherForecastPreview">
+                        <div class="forecast-time">Wed</div><canvas width="38" height="38"></canvas>
+                        <img src="" alt="Clear" id="icon" class="float-left" />
+                        <div class="forecast-temperature"><span class="forecast-temperature-max">20°</span>
+                            <span class="forecast-temperature-min">14°</span>
+                            </div>
+                            </div>
+            
+
+                </div>
+                </div>
+               
+             
+          
+      
