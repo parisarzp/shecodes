@@ -58,10 +58,9 @@ li {
     margin-bottom: 20px;
 }
 .WeatherForecast {
-    text-align: center;
-    margin: 40px 0;
-    border-bottom: 1px solid #f9f7fe;
-    padding-bottom: 50px;
+    margin-top: 20px;
+        text-align: center;
+        color: #000;
 }
 
 .WeatherForecast .forecast-time {
@@ -73,10 +72,10 @@ li {
 
 .WeatherForecast .forecast-temperature {
     font-style: normal;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #f65282;
-    font-weight: bold;
+    font-size: 13px;
+    
+    
+    
 }
 
 .WeatherForecast .forecast-temperature-min {
